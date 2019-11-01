@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="genpwd.css">
 </head>
 <!-- Code varified at Bootstrap Examples (check out forms; carousel/ images) -->
+
 <body class="bg-light">
     <div class="container">
         <div class="py-5 text-center">
@@ -23,7 +24,8 @@
         </div>
         <div class="row mb-3">
             <div class="col-12">
-                <h5>Please enter the password length between 8 and 130 characters and if you want to include a special character as
+                <h5>Please enter the password length between 8 and 130 characters and if you want to include a special
+                    character as
                     part of it.</h5>
             </div>
         </div>
@@ -31,11 +33,11 @@
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="passwordLength">Password Length</label>
-                    <input type="text" class="form-control" id="passwordLength" aria-describedby="password length"
+                    <input type="text" class="form-control" id="passwordLength" aria-describedby="passwordLength"
                         placeholder="please use a number between 8 and 130">
                 </div>
                 <div class="form-group col-md-6 text-center">
-                    <label for="passwordCopy" id="pwdCopy"></label>
+                    <label id="pwdCopy"></label>
                 </div>
             </div>
             <!-- Bootstrap Checkboxes and radios forms placed in #Id SpecialChar-->
@@ -48,8 +50,10 @@
                 </div>
             </div>
             <!-- Wire buttons EventListener code JS -->
-            <button type="button" class="btn btn-danger btn-lg" id="btnGenPwd" onclick="genPassword()">Generate Password</button>
-            <button type="button" class="btn btn-secondary btn-lg" id="btnClipBrd" onclick="copyData()">Copy to Clipboard</button>
+            <button type="button" class="btn btn-danger btn-lg" id="btnGenPwd" onclick="genPassword()">Generate
+                Password</button>
+            <button type="button" class="btn btn-secondary btn-lg" id="btnClipBrd" onclick="copyData()">Copy to
+                Clipboard</button>
         </form>
     </div>
     <!-- link to my java script-->
@@ -65,4 +69,5 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
