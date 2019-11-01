@@ -1,0 +1,27 @@
+/* CSS for background, media, bootstrap */
+
+/* mobile devices for 576 px */
+@media (min-width: 576px) {
+    body{
+        background-color: white;
+    }
+}
+
+@media (min-width: 768px) { 
+    body {
+        background-color: white;
+    }
+}
+
+/* Computer devices  992px   */
+@media (min-width: 992px) { 
+    body {
+        background-color: white;
+    }
+}
+
+@media (min-width: 1200px) { 
+    body {
+        background-color: white;
+    }
+} 
